@@ -15,7 +15,7 @@ body {
 
 main {
   min-height: 75vh;
-  max-width: 66vw;
+  max-width: 52.5rem;
   display: flex;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -119,5 +119,7 @@ button:hover {
 
      main {
         flex-direction: column;
+        height: auto;
+        max-width: 100%;
      }
 }
