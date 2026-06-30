@@ -9,12 +9,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   gap: 1rem;
 }
 
 main {
-  height: 75vh;
+  min-height: 75vh;
   max-width: 66vw;
   display: flex;
   border-radius: 0.5rem;
