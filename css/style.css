@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  min-height: 75vh;
+  height: clamp(20rem, 27.5rem, 30rem);
   max-width: 52.5rem;
   display: flex;
   border-radius: 0.5rem;
@@ -30,6 +30,7 @@ main {
   background-color: hsl(31, 77%, 52%);
   padding: 2.5rem;
   justify-content: space-between;
+  
 }
 
 .suvs {
@@ -48,6 +49,7 @@ button {
   border-radius: 2rem;
   border: none;
   background-color: hsl(0, 0%, 95%);
+  margin-top: 0rem;
 }
 
 img {
